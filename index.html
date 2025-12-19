@@ -3,44 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ultron™ Dashboard</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Ultron™ Developer</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    /* Body & Background */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(135deg, #0a0a0a, #1a1a1a);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    /* Container */
+    .developer-container {
+      background: rgba(20, 20, 20, 0.95);
+      border: 2px solid #7289da;
+      border-radius: 25px;
+      padding: 50px 40px;
+      max-width: 800px;
+      text-align: center;
+      box-shadow: 0 0 50px rgba(114, 137, 218, 0.6);
+    }
+
+    /* Glowing Header */
+    h1 {
+      font-size: 3rem;
+      color: #7289da;
+      text-shadow: 0 0 15px #7289da, 0 0 30px #7289da;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: #ffffff;
+      text-shadow: 0 0 10px #7289da;
+      margin-bottom: 25px;
+    }
+
+    /* Info Lines */
+    p {
+      font-size: 1.2rem;
+      margin: 10px 0;
+      color: #ccc;
+      line-height: 1.6;
+      text-shadow: 0 0 5px #7289da;
+    }
+
+    /* Links */
+    a {
+      color: #7289da;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    a:hover {
+      color: #fff;
+      text-shadow: 0 0 20px #7289da, 0 0 40px #7289da;
+    }
+
+    /* Techy Box Glow Effect */
+    .glow-box {
+      border: 1px solid #7289da;
+      padding: 20px;
+      border-radius: 15px;
+      margin: 20px 0;
+      box-shadow: 0 0 20px #7289da, 0 0 40px #7289da inset;
+      background: rgba(0,0,0,0.5);
+    }
+  </style>
 </head>
 <body>
-  <div class="dashboard-container">
-    <header class="dashboard-header">
-      <h1>Ultron™ Dashboard</h1>
-      <p>Manage your servers and bot settings easily.</p>
-      <a id="login-btn" href="#">Login with Discord</a>
-    </header>
+  <div class="developer-container">
+    <h1>Ultron™</h1>
+    <h2>Developer Info</h2>
 
-    <main class="dashboard-main">
-      <section class="legal-section">
-        <h2>Legal</h2>
-        <ul>
-          <li><a href="https://mythickiller-ai.github.io/Ultron.terms.services.xyz/" target="_blank">Terms of Service</a></li>
-          <li><a href="https://mythickiller-ai.github.io/Ultron.bot.Privacy.Policy/" target="_blank">Privacy Policy</a></li>
-        </ul>
-      </section>
-      <section class="features-section">
-        <h2>Features</h2>
-        <ul>
-          <li>Server management</li>
-          <li>Role and channel configuration</li>
-          <li>Bot prefix and settings</li>
-          <li>Real-time updates</li>
-        </ul>
-      </section>
-    </main>
-
-    <footer class="dashboard-footer">
-      <p>Ultron™ © 2025</p>
-    </footer>
+    <div class="glow-box">
+      <p><strong>Developer:</strong> mr.mythic.killer</p>
+      <p><strong>Discord Username:</strong> mr.mythic.killer</p>
+      <p><strong>Discord Server:</strong> <a href="https://discord.gg/VmrntcMC5W" target="_blank">Join Server</a></p>
+      <p><strong>Title:</strong> Ultra Developer of Ultron™</p>
+      <p><strong>About:</strong> Passionate coder, tech enthusiast, and creator of Ultron™ – a bot designed to make Discord servers smarter, faster, and ultra-cool. Dedicated to continuous innovation and futuristic tech vibes.</p>
+      <p><strong>Skills:</strong> Discord.js, Node.js, Bot Development, Web Dashboards, API Integration, and ultra-techy UX design.</p>
+    </div>
+    
+    <p>Stay connected for updates and support!</p>
   </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
+
 
 
